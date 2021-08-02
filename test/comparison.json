@@ -1,0 +1,227 @@
+{
+  "App.tsx": {
+    "name": "App",
+    "imports": [
+      {
+        "name": "Pokedex",
+        "source": "components/Pokedex.tsx"
+      },
+      {
+        "name": "Credit",
+        "source": "components/Credit.tsx"
+      }
+    ]
+  },
+  "components/Pokedex.tsx": {
+    "name": "Pokedex",
+    "imports": [
+      {
+        "name": "PokedexInstructions",
+        "source": "components/PokedexInstructions.tsx"
+      },
+      {
+        "name": "PokedexSubnav",
+        "source": "components/PokedexSubnav.tsx"
+      },
+      {
+        "name": "PokemonList",
+        "source": "components/PokemonList.tsx"
+      },
+      {
+        "name": "PokemonSubnav",
+        "source": "components/PokemonSubnav.tsx"
+      },
+      {
+        "name": "Pokemon",
+        "source": "components/Pokemon.tsx"
+      },
+      {
+        "name": "ItemCategorySubnav",
+        "source": "components/ItemCategorySubnav.tsx"
+      },
+      {
+        "name": "ItemList",
+        "source": "components/ItemList.tsx"
+      },
+      {
+        "name": "Item",
+        "source": "components/Item.tsx"
+      },
+      {
+        "name": "SearchInput",
+        "source": "components/SearchInput.tsx"
+      },
+      {
+        "name": "SearchResults",
+        "source": "components/SearchResults.tsx"
+      }
+    ]
+  },
+  "components/Credit.tsx": {
+    "name": "Credit",
+    "imports": []
+  },
+  "components/PokedexInstructions.tsx": {
+    "name": "PokedexInstructions",
+    "imports": []
+  },
+  "components/PokedexSubnav.tsx": {
+    "name": "PokedexSubnav",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/PokemonList.tsx": {
+    "name": "WrappedComponent",
+    "imports": [
+      {
+        "name": "withData",
+        "source": "HOC/withData.tsx"
+      },
+      {
+        "name": "Pagination",
+        "source": "components/Pagination.tsx"
+      },
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/PokemonSubnav.tsx": {
+    "name": "PokemonSubnav",
+    "imports": []
+  },
+  "components/Pokemon.tsx": {
+    "name": "Pokemon",
+    "imports": [
+      {
+        "name": "PokemonOverview",
+        "source": "components/PokemonOverview.tsx"
+      },
+      {
+        "name": "PokemonStats",
+        "source": "components/PokemonStats.tsx"
+      },
+      {
+        "name": "PokemonMoves",
+        "source": "components/PokemonMoves.tsx"
+      },
+      {
+        "name": "PokemonEvolution",
+        "source": "components/PokemonEvolution.tsx"
+      },
+      {
+        "name": "PokemonEncounters",
+        "source": "components/PokemonEncounters.tsx"
+      }
+    ]
+  },
+  "components/ItemCategorySubnav.tsx": {
+    "name": "ItemCategorySubnav",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/ItemList.tsx": {
+    "name": "WrappedComponent",
+    "imports": [
+      {
+        "name": "withData",
+        "source": "HOC/withData.tsx"
+      },
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/Item.tsx": {
+    "name": "WrappedComponent",
+    "imports": [
+      {
+        "name": "withData",
+        "source": "HOC/withData.tsx"
+      },
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/SearchInput.tsx": {
+    "name": "SearchInput",
+    "imports": []
+  },
+  "components/SearchResults.tsx": {
+    "name": "SearchResults",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "Helpers.js": {
+    "name": "Helpers",
+    "imports": []
+  },
+  "HOC/withData.tsx": {
+    "name": "withData",
+    "imports": []
+  },
+  "components/Pagination.tsx": {
+    "name": "Pagination",
+    "imports": []
+  },
+  "components/PokemonOverview.tsx": {
+    "name": "PokemonOverview",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/PokemonStats.tsx": {
+    "name": "PokemonStats",
+    "imports": []
+  },
+  "components/PokemonMoves.tsx": {
+    "name": "PokemonMoves",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/PokemonEvolution.tsx": {
+    "name": "PokemonEvolution",
+    "imports": [
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  },
+  "components/PokemonEncounters.tsx": {
+    "name": "WrappedComponent",
+    "imports": [
+      {
+        "name": "withData",
+        "source": "HOC/withData.tsx"
+      },
+      {
+        "name": "normalizeName",
+        "source": "Helpers.js"
+      }
+    ]
+  }
+}

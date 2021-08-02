@@ -1,0 +1,43 @@
+{
+  "name": "import-hierarchy",
+  "version": "1.0.0",
+  "description": "Analyze list of node ES6 imports to determine a hierarchy.",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "prepare": "npm run build",
+    "build": "rm -rf dist && tsc",
+    "test": "npm run build && ts-mocha ./test/test.ts"
+  },
+  "keywords": [
+    "developer-tools",
+    "react",
+    "json",
+    "hierarchy",
+    "react-components"
+  ],
+  "bin": {
+    "import-hierarchy": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Richard1320/import-hierarchy.git"
+  },
+  "author": "Richard Hung <richardhung111@gmail.com> (http://www.magicmediamuse.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^4.28.5",
+    "chai": "^4.3.4",
+    "commander": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.10",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.3.5"
+  }
+}
