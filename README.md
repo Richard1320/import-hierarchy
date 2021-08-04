@@ -30,10 +30,14 @@ import-hierarchy <startingFilePath> [options] -o <JSONOutputPath>
 ## CLI Options
 
 ```
--h, --help                                  Display help for commands
--v, --version                               Output the version number
--o, --output <filePath>                     The output file path for the JSON to be written
--sd, --systemDirectory <pathToRemove>       String `find and replace` to remove the base system directory from the file paths
+-h, --help                                  Display help for commands.
+
+-v, --version                               Output the version number.
+
+-o, --output <filePath>                     The output file path for the JSON to be written. (Required)
+
+-sd, --systemDirectory <pathToRemove>       String `find and replace` to remove the base system directory from the file 
+                                            paths. Defaults to the currently executing directory.
 ```
 
 ## Example JSON Output
