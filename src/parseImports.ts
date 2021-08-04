@@ -106,7 +106,7 @@ function parseImports(inputPath: string): IImportHierarchyItem | undefined {
 			exportName = defaultExport.declaration.name;
 		}
 	} catch {
-		console.error("err loading default export", fileName);
+		// console.error("err loading default export", fileName);
 	}
 
 	return {
